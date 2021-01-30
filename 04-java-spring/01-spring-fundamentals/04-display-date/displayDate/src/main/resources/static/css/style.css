@@ -1,0 +1,10 @@
+@charset "UTF-8";
+a:link, a:visited {
+  background-color: #3786af;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin:100px 0px 0px 400px;
+}
