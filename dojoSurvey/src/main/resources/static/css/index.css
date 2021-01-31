@@ -1,0 +1,25 @@
+@charset "UTF-8";
+div{
+	display: block;
+	margin:20px 0px 0px 100px;
+}
+
+ div#form{
+	padding: 50px;
+	border-style: double;
+	width:500px;
+	margin:100px 0px 0px 400px;
+	
+}
+
+#comment{
+	  vertical-align: top;
+}
+
+textarea{
+	display:block;
+}
+
+#button{
+	margin:10px 0px 0px 100px;
+}
