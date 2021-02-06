@@ -9,23 +9,14 @@
 <title>Show book</title>
 </head>
 <body>
-<table>
-    <thead>
-        <tr>
-            <th>Title</th>
-            <th>Description</th>
-            <th>Language</th>
-            <th>Number of Pages</th>
-        </tr>
-    </thead>
-    <tbody>
-		<tr>    
-    		<td><c:out value="${book.title}"/></td>
-    		<td><c:out value="${book.description}"/></td>
-    		<td><c:out value="${book.language}"/></td>
-    		<td><c:out value="${book.numberOfPages}"/></td>
-		</tr>
-    </tbody>
-</table>
+<h1><c:out value="${book.title}"/></h1>
+<p>Description: <c:out value="${book.description}"/></p>
+<p>Language: <c:out value="${book.language}"/></p>
+<p>Number of pages: <c:out value="${book.numberOfPages}"/></p>
+<a href="/books/${book.id}/edit">Edit Book</a>
+<form action="/books/${book.id}" method="post">
+    <input type="hidden" name="_method" value="delete">
+    <input type="submit" value="Delete">
+</form>
 </body>
 </html>
