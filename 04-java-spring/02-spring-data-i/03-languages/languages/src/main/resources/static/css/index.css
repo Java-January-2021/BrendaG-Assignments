@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+body{
+	padding:20px;
+}
+#welcome{
+	margin-left:500px;
+}
+#new{
+	margin-left:40px;
+	margin-bottom:5px;
+	background-color: violet;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+#new:hover, #new:active {
+  background-color: slateblue;
+}
+.table{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  margin-left:40px;
+}
+
+.table td, .table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table tr:nth-child(even){background-color: #f2f2f2;}
+
+.table tr:hover {background-color: #ddd;}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: slateblue;
+  color: white;
+}
+
+#showLanguage{
+	text-decoration:none
+}
+#edit{
+		text-decoration:none
+	
+}
+#delete{
+		text-decoration:none
+	
+}
