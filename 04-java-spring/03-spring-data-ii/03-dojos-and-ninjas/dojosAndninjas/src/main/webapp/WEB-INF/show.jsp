@@ -8,14 +8,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>${dojo.name}</title>
 </head>
 <body>
 	<div class="container">
 		<h1>${dojo.name} Location Ninjas</h1>
 		<c:forEach items="${dojo.ninjas}" var="ninja">
 		
-		<table>
+	<table class="table">
 		  <tr>
 		    <th>First Name</th>
 		    <th>Last Name</th>
